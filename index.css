@@ -1,0 +1,49 @@
+/*navigation*/
+
+nav ul{
+	border:1px black;
+	list-style:none;
+	padding:0;
+	display:flex;
+	justify-content:center;
+}
+
+nav li{
+	 margin:0 1em;
+}
+
+nav a {
+	text-decoration:none;
+	color: black;
+	font-weight: 700;
+	padding: .25em 0;
+}
+	
+nav a:hover, 
+nav a :focus{
+	color : white;
+}
+
+.current-page {
+	border-bottom: 1 px solid #707070;
+}
+.current-page: hover {
+	color: #707070;
+}
+/*   */
+h1{
+	color:black;
+}
+
+body {
+	margin:0;
+	text-align: center;
+	
+}
+
+/*   */
+table{
+	border-style: double;
+}
+	
+
