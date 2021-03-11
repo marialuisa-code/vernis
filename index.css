@@ -1,7 +1,7 @@
 /*navigation*/
 
 nav ul{
-	border:1px black;
+	
 	list-style:none;
 	padding:0;
 	display:flex;
@@ -18,18 +18,23 @@ nav a {
 	font-weight: 700;
 	padding: .25em 0;
 }
-	
+
 nav a:hover, 
 nav a :focus{
 	color : white;
 }
 
-.current-page {
-	border-bottom: 1 px solid #707070;
+.current-page{
+  border-bottom: 2px solid black;
+  padding: 15px;
 }
+
 .current-page: hover {
-	color: #707070;
+	color:solid black;
 }
+
+
+
 /*   */
 h1{
 	color:black;
