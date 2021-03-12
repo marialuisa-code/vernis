@@ -35,7 +35,7 @@ nav a :focus{
 
 
 
-/*   */
+/* 1ST page  */
 h1{
 	color:black;
 }
@@ -51,4 +51,12 @@ table{
 	border-style: double;
 }
 	
+/*2nd page  */
 
+.rotateimg180 {
+	-webkit-
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+}
