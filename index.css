@@ -1,5 +1,3 @@
-/*navigation*/
-
 nav ul{
 	
 	list-style:none;
@@ -33,40 +31,8 @@ nav a :focus{
 	color:solid black;
 }
 
-
-
-/* 1ST page  */
-h1{
-	color:black;
-}
-
-body {
-	margin:0;
-	text-align: center;
-	
-}
-
-/*   */
-table{
-	border-style: double;
-	
-}
-
-table, th, td {
-   border: 1px solid black;
-   
-}
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
-}
-	
 /*2nd page  */
 
-.rotateimg180 {
-	-webkit-transform:rotate(90deg);
-	-ms-transform:rotate(90deg);
-	-o-transform:rotate(90deg);
-	transform:rotate(90deg);
+main {
+	transform : rotate(90deg);
 }
