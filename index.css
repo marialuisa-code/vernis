@@ -35,11 +35,8 @@ nav a :focus{
 
 img  {
 	object-fit: cover;
-    padding: 0px;
+    padding: 10px;
 	transform : rotate(90deg);
 	border: none;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 10em
-	
+    
 }
