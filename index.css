@@ -33,6 +33,9 @@ nav a :focus{
 
 /*2nd page  */
 
-/*main {
+main  {
+	
+	display:flex;
+	justify-content:center;
 	transform : rotate(90deg);
-}*/
+}
