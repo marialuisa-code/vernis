@@ -39,6 +39,8 @@ img  {
     padding: 10px;
 	transform : rotate(90deg);
 	border: none;
-
+    margin-left: auto;
+    margin-right: auto;
+    width: 6em
 	
 }
