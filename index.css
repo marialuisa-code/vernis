@@ -45,13 +45,13 @@ main{
 img  {
     width: 200px;
 	object-fit: cover;
-    padding: 10px;
+    padding: 0px;
 	transform : rotate(90deg);
 	border: none;
-    justify-content: center;
 	display:block;
-	align-items: center;
 	margin: 0 auto;
 	max-width:400px;
 	border: 1px solid black;
+	position : relative;
+	top: 24px;
 }
