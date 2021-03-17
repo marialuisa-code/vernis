@@ -56,7 +56,10 @@ img{
 	margin: 20px;
 	object-fit: scale-down;
 	padding: 1%;
-	transition: 6s linear;
+}
+/*	transition: 6s linear;
+	float: left-right;
+   
 }
 	
 img: hover{
