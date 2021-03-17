@@ -49,20 +49,13 @@ main{
 body {
 	margin:0;
 	text-align: center;
-	display: grid;
-    justify-content: center; 
-    grid-auto-rows: auto;
-    grid-gap: 7px;
-    
 }
 
 img{
 	
 	transform : rotate(90deg);
 	border: 1px solid black;
-	margin: 20px;
-	object-fit: scale-down;
-	position:relative;
+	margin: 20px;	
 	padding: 1%;
 	transition: 6s linear;
 	
@@ -74,8 +67,9 @@ img: hover{
 
 
 
-/*	transition: 6s linear;
-	float: left-right;
+/*	
+	object-fit: scale-down;
+	position:relative;
    
 }
 	
