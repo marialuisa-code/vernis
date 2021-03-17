@@ -49,6 +49,11 @@ main{
 body {
 	margin:0;
 	text-align: center;
+	display: grid;
+    justify-content: center; 
+    grid-auto-rows: auto;
+    grid-gap: 7px;
+    
 }
 
 img{
@@ -57,15 +62,18 @@ img{
 	border: 1px solid black;
 	margin: 20px;
 	object-fit: scale-down;
+	position:relative;
 	padding: 1%;
 	transition: 6s linear;
-	float: left-right;
 	
 }
 
 img: hover{
 	transform:rotatey(360deg);
 }
+
+
+
 /*	transition: 6s linear;
 	float: left-right;
    
