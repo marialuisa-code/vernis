@@ -42,6 +42,10 @@ main{
 	border: 1px solid black;
 }
 
+body {
+	margin:0;
+	text-align: center;
+
 img  {
     width: 200px;
 	object-fit: cover;
@@ -55,3 +59,18 @@ img  {
 	position : relative;
 	top: 24px;
 }
+
+
+/* 
+img {
+    position: absolute;
+    clip: rect(20px,60px,200px,0px);
+}
+Values:
+clip: rect(top offset, visible width, visible height, left offset)
+
+The first number indicates the top offset - the top edge of the clipping window.
+The last number indicates the left offset - the left edge of the clipping window.
+The second number is the width of the clipping window plus the left offset(last number).
+The third number is the height of the clipping window plus the top offset(first number).
+*/
