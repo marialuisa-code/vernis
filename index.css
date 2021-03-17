@@ -53,9 +53,9 @@ img{
 	
 	transform : rotate(90deg);
 	border: 1px solid black;
-	margin: 4%;
+	margin: 22px;
 	object-fit: scale-down;
-	padding: 2%;
+	padding: 1%;
 	transition: 6s linear;
 }
 	
