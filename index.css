@@ -38,15 +38,25 @@ main{
 	display:block;
 	align-items: center;
 	margin: 0 auto;
-	max-width:400px;
+	max-width:500px;
 	border: 1px solid black;
 }
 
 body {
 	margin:0;
 	text-align: center;
+}
 
-img  {
+img{
+	
+	transform : rotate(90deg);
+	border: 1px solid black;
+	margin: 24px;
+	object-fit: scale-down;
+	
+}
+	
+/*img  {
     width: 200px;
 	object-fit: cover;
     padding: 0px;
