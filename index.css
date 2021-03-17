@@ -31,11 +31,13 @@ nav a :focus{
 	color:solid black;
 }
 
-/*2nd page  */
+/*2nd page  
+display:block;
+*/
 
 
 main{
-	display:block;
+	
 	align-items: center;
 	margin: 0 auto;
 	max-width:98%;
@@ -56,6 +58,7 @@ img{
 	margin: 20px;
 	object-fit: scale-down;
 	padding: 1%;
+	
 }
 /*	transition: 6s linear;
 	float: left-right;
