@@ -53,7 +53,7 @@ img{
 	
 	transform : rotate(90deg);
 	border: 1px solid black;
-	margin: 22px;
+	margin: 20px;
 	object-fit: scale-down;
 	padding: 1%;
 	transition: 6s linear;
