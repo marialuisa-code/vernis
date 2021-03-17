@@ -37,11 +37,12 @@ display:block;
 
 
 main{
-	
+	display:block;
 	align-items: center;
 	margin: 0 auto;
 	max-width:98%;
 	border: 1px solid black;
+	
 	
 }
 
@@ -49,6 +50,7 @@ main{
 body {
 	margin:0;
 	text-align: center;
+	
 }
 
 img{
@@ -57,11 +59,15 @@ img{
 	border: 1px solid black;
 	margin: 20px;	
 	padding: 1%;
-	transition: 6s linear;
-	
+	object-fit: scale-down;
+	transition: 6s linear;	
 }
 
-img: hover{
+.a{
+	display:table;
+}
+
+/*img: hover{
 	transform:rotatey(360deg);
 }
 
