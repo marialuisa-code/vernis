@@ -58,7 +58,13 @@ img{
 	margin: 20px;
 	object-fit: scale-down;
 	padding: 1%;
+	transition: 6s linear;
+	float: left-right;
 	
+}
+
+img: hover{
+	transform:rotatey(360deg);
 }
 /*	transition: 6s linear;
 	float: left-right;
