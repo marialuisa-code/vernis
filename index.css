@@ -37,10 +37,10 @@ display:block;
 
 
 main{
-	display:block;
+	
 	align-items: center;
 	margin: 0 auto;
-	max-width:98%;
+	max-width:90%;
 	border: 1px solid black;
 	
 	
@@ -54,7 +54,7 @@ body {
 }
 
 img{
-	
+	width:30%;
 	transform : rotate(90deg);
 	border: 1px solid black;
 	margin: 20px;	
@@ -63,11 +63,26 @@ img{
 	transition: 6s linear;	
 }
 
-.a{
-	display:table;
+img: hover{
+	transform:rotatey(360deg);
 }
 
-/*img: hover{
+
+.row{
+	flex:50%;
+}
+
+.column{
+	flex:50%
+}
+
+/*.a{
+	display:flex;
+	flex-direction:column;
+	align-items: stretch;
+}
+
+img: hover{
 	transform:rotatey(360deg);
 }
 
@@ -79,9 +94,7 @@ img{
    
 }
 	
-img: hover{
-	transform:rotatey(360deg);
-}
+
 /*img  {
     width: 200px;
 	object-fit: cover;
