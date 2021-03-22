@@ -11,6 +11,7 @@ nav li{
 }
 
 nav a {
+	font-family:"Brush Script MT", cursive;
 	text-decoration:none;
 	color: black;
 	font-weight: 700;
@@ -22,6 +23,11 @@ nav a :focus{
 	color : white;
 }
 
+@Keyframes mymove {
+	from {background-color:red;}
+	to{background-color: blue;}
+}
+
 .current-page{
   border-bottom: 2px solid black;
   padding: 15px;
@@ -29,12 +35,15 @@ nav a :focus{
 
 .current-page: hover {
 	color:solid black;
+	
 }
 
-/*2nd page  
-display:block;
-*/
 
+body {
+	margin:0;
+	text-align: center;
+	
+}
 
 main{
 	
@@ -46,13 +55,6 @@ main{
 	
 }
 
-
-body {
-	margin:0;
-	text-align: center;
-	
-}
-
 img{
 	width:30%;
 	transform : rotate(90deg);
@@ -60,7 +62,7 @@ img{
 	margin: 20px;	
 	padding: 1%;
 	object-fit: scale-down;
-	transition: 6s linear;	
+	transition: 6s linear;
 }
 
 img: hover{
@@ -84,6 +86,7 @@ img: hover{
 
 img: hover{
 	transform:rotatey(360deg);
+	 clip(1%,1%,97%,1%);	
 }
 
 
