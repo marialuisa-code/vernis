@@ -63,10 +63,10 @@ main{
 }
 
 img{
-	width:35%;
+	width:30%;
 	transform : rotate(90deg);
 	border: 1px solid black;
-	margin: 6%;	
+	margin: 5%;	
 	padding: 1%;
 	object-fit: scale-down;
 	transition: 6s linear;
