@@ -24,13 +24,19 @@ nav a :focus{
 }
 
 @Keyframes mymove {
-	from {background-color:red;}
+	from{background-color:red;}
 	to{background-color: blue;}
+}
+
+.mymove{
+    animation:mymove 10s infinite;
 }
 
 .current-page{
   border-bottom: 2px solid black;
   padding: 15px;
+  color:solid black;
+  
 }
 
 .current-page: hover {
@@ -49,17 +55,18 @@ main{
 	
 	align-items: center;
 	margin: 0 auto;
-	max-width:90%;
+	max-width:98%;
 	border: 1px solid black;
+	
 	
 	
 }
 
 img{
-	width:30%;
+	width:35%;
 	transform : rotate(90deg);
 	border: 1px solid black;
-	margin: 20px;	
+	margin: 6%;	
 	padding: 1%;
 	object-fit: scale-down;
 	transition: 6s linear;
@@ -67,8 +74,11 @@ img{
 
 img: hover{
 	transform:rotatey(360deg);
+	
 }
+ 
 
+	
 
 .row{
 	flex:50%;
